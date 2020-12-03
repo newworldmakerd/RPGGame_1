@@ -53,6 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerAni.cs" />
     <Compile Include="Assets\FX\Scripts\ETFXPitchRandomizer.cs" />
     <Compile Include="Assets\FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
     <Compile Include="Assets\FX\Demo\Scripts\ETFXSceneManager.cs" />
@@ -62,14 +63,14 @@
     <Compile Include="Assets\Fantasy Monster(wizard) Demo\Environment\Scripts\CamCTRLDemo.cs" />
     <Compile Include="Assets\FX\Demo\Scripts\ETFXFireProjectile.cs" />
     <Compile Include="Assets\FX\Scripts\ETFXRotation.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerC.cs" />
     <Compile Include="Assets\FX\Demo\Scripts\ETFXButtonScript.cs" />
     <Compile Include="Assets\FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" />
     <Compile Include="Assets\FX\Scripts\ETFXLightFade.cs" />
     <Compile Include="Assets\FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" />
-    <Compile Include="Assets\Fantasy Monster(wizard) Demo\Environment\Scripts\MoveCTRLDemo.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerC.cs" />
     <Compile Include="Assets\Scripts\System\InputC.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerAni.cs" />
+    <Compile Include="Assets\Fantasy Monster(wizard) Demo\Environment\Scripts\MoveCTRLDemo.cs" />
+    <Compile Include="Assets\Scripts\Camera\ARPGCameraC.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Boy\shader\Toony-Basic.shader" />

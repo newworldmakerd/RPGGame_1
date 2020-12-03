@@ -27,7 +27,7 @@ public class PlayerC : MonoBehaviour
     }
     void Move()
     {
-        Vector3 dir = transform.TransformDirection(new Vector3( m_Input.m_Movement.x, 0, m_Input.m_Movement.y));
+        Vector3 dir = transform.TransformDirection(new Vector3( m_Input.m_Movement.x, -10, m_Input.m_Movement.y));
         characterController.Move(dir*walkSpeed*Time.deltaTime);
     }
 }
